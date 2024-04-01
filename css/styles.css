@@ -1,0 +1,77 @@
+body {
+    background-color: cornsilk;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 3rem;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+header > img {
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    margin-top: 20px;
+    height: 50px;
+    background-color: rgb(72,94,87);
+}
+
+nav ul {
+    margin-top: auto;
+    margin-bottom: auto;
+    list-style: none;
+    text-align: center;
+  
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    background-color: rgb(72,94,87);
+    color: cornsilk
+}
+
+nav a:hover {
+    background-color: cornsilk;
+    color: rgb(72,94,87);
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section img {
+    width: 275px;
+    height: 185px;
+}
+
+article {
+    flex: 1;
+}
+
+.logo {
+    width: 50px;
+}
+
+footer {
+    display: flex;
+}
+
+footer div {
+    flex: 1
+}
